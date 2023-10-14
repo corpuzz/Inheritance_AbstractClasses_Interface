@@ -4,7 +4,9 @@ public class Instructor extends Employee {
     private String department;
     private ArrayList<String> coursesTaught;
 
-    public Instructor() {}
+    public Instructor() {
+        coursesTaught = new ArrayList<String>();
+    }
 
     @Override
     public void setRate() {} // for compliance only

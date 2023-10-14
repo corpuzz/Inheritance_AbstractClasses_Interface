@@ -4,6 +4,7 @@ public class Cashier extends Employee {
     private String branch;
     private double rate;
 
+    public Cashier() {}
     @Override
     public void setRate(){
         Scanner input =new Scanner(System.in);

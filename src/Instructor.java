@@ -23,4 +23,15 @@ public class Instructor extends Employee {
         coursesTaught.add(course);
     }
 
+    public String getTitle() {
+        return title;
+    }
+
+    public String getDepartment() {
+        return department;
+    }
+
+    public String getCoursesTaught() {
+        return coursesTaught.toString();
+    }
 }
